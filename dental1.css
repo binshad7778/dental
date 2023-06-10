@@ -1,0 +1,118 @@
+@media(max-width:500px){
+    *{
+       margin: 0;
+       padding: 0;
+    }
+  .phone{
+     display: none;
+  }
+  .secbar{
+     width: 700px;
+  }
+  .navbar{
+     display: flex;
+     justify-content: center;
+  }
+  .secimg{
+     display: flex;
+     flex-direction: column;
+     width: 700px;
+     padding-top: 100px;
+     justify-content: center;
+  }
+  .package{
+     width: 600px;
+     /* background-color: blue; */
+  }
+  .secimgtext{
+     display: flex;
+     flex-direction: column-reverse;
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+     /* background-color: blue; */
+     width: 700px;
+     padding-top: 50px;
+  }
+  .sectext{
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+    /* text-align: center; */
+  }
+  .tr{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .thirdimg{
+     height:600px;
+     width: 700px;
+     display: flex;
+     justify-content: center;
+     /* background-color: rgb(160, 105, 23); */
+   
+     
+  }
+  .thirdbar{
+    width: 700px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color: blue; */
+    align-items: center;
+  }
+  .tbox{
+    /* background-color: green; */
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+  }
+  .boxfirstraw{
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+    justify-content: space-around;
+  }
+  .boxsecondraw{
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+    /* background-color: coral; */
+    justify-content: space-around;
+  }
+  .img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    height: 950px;
+    width: 700px;
+  }
+  /* .freqfull{
+    background-color: blueviolet;
+    margin-top: 500px;
+  } */
+  .pall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    width: 700px;
+    
+  }
+  .question{
+    width: 600px;
+    height: 20vh;
+  }
+  .line{
+    width: 600px;
+  }
+  
+ 
+ }

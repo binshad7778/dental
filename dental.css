@@ -1,0 +1,241 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.navbar{
+  display: flex;
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  justify-content: space-around;
+  align-items: center;
+  top: 0;
+  
+}
+.phone{
+  display: flex;
+}
+.secbar{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(10, 142, 190);
+  height: 90px;
+  width: 100%;
+  margin-top: 100px;
+}
+.inside{
+
+  display: flex;
+  width: 600px;
+  align-items: center;
+  justify-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 20;
+ 
+}
+.package{
+ font-size: 50px;
+ width: 500px;
+ height: 400px;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ display: flex;
+ flex-direction: column;
+ 
+ justify-content: center;
+ align-items: center;
+ 
+ 
+
+}
+.secimg{
+  background: linear-gradient(to top, #089ad9 0%, #70d9ea 100%);
+ 
+  width: 100%;
+  display: flex;
+  height: 400px;
+  justify-content: space-around;
+  
+}
+.sp{
+  color: white;
+  font-size: 40px;
+  font-family: "Space Mono", monospace;
+}
+.tr{
+  color: #113838;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* margin-top: 20px; */
+  
+}
+.dott{
+  margin: 30px;
+} 
+.line{
+  
+  font-size: 30px;
+  font-family: sans-serif;
+  color: rgb(145, 143, 143);
+  /* margin-bottom: 20px; */
+  /* margin-top: 20px; */
+}
+.secimgtext{
+  display: flex;
+  width: 100%;
+ text-align: start;
+ align-items: center;
+  justify-content: space-around;
+ 
+ 
+}
+.sectext{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  font-size: 19px;
+   /* width: 400px;  */
+}
+.im{
+  color: rgb(7, 144, 144);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.our{
+  font-family:"Times New Roman", Times, serif;
+  color: rgb(93, 165, 165);
+  font-size: 25px;
+  
+
+}
+.button{
+  border-radius: 30px;
+  width: 220px;
+  height: 50px;
+  background-color: #022c2c;
+  color: white;
+  font-size: 20px;
+}
+.button:hover{
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+box-shadow: 0 0 20px rgb(42, 30, 88);
+}
+.thirdbar{
+  width: 600px;
+  display: flex;
+  /* background-color: #022c2c; */
+  justify-content: space-around;
+}
+.firstbox{
+
+  border: 1px solid white;
+  width: 300px;
+  height: 420px;
+  border-radius: 70px;
+  box-shadow: 0 0 10px rgb(208, 203, 203);
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.boxfirstraw{
+  display: flex;
+  justify-content:space-around;
+  margin-top: 50px;
+  
+}
+.boxsecondraw{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.img{
+  background: linear-gradient(to top, #53a8cd 0%, #132f33 100%);
+  margin-top: 50px;
+  text-align: center;
+  align-items: center;
+  height: 170px;
+  
+}
+
+.freq{
+
+  color: #113838;
+  font-size: 40px;
+   margin-bottom: 10px; 
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+}
+.mouth{
+  color: rgb(7, 144, 144);
+font-size: 20px;
+  margin-bottom: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.question{
+  background: linear-gradient(to top, #0baaee 0%, #85d3df 100%);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif sans-serif;
+  height: 40px;
+  color: white;
+  display: flex;
+  justify-content: start;
+  padding: 20px;
+  align-items: start; 
+  font-size: 40px;
+  
+ 
+
+}
+.freqfull{
+  padding: 60px; 
+  margin: top 50px; ;
+  
+}
+.allbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  height: 250px;
+  background: linear-gradient(to top, #53a8cd 0%, #132f33 100%);
+}
+.forflux{
+  display: flex;
+  color: white;
+    
+}
+.secondcolumn{
+  color: white;
+}
+.firstcolumntxt{
+  font-size: 13px;
+  color: white;
+}
+.forcen{
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  
+  align-items: center; 
+  
+  height: 80px;
+}
+/* .icons{
+  background-color: rgb(194, 40, 6);
+  width: 500px;
+  height: 700px;
+} */
